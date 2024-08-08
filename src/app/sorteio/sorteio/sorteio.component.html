@@ -1,0 +1,30 @@
+<h1>Sorteio</h1>
+
+<div>
+  <ul>
+    <li *ngFor="let jogador of jogadores; let i = index">
+      <input type="checkbox" [(ngModel)]="jogador.selecionado" [id]="'checkbox-' + i">
+      <a href="#" (click)="toggleCheckbox(i); $event.preventDefault()"> <!-- Adiciona o link clicável e previne o comportamento padrão -->
+        <img [src]="jogador.foto" alt="Foto do {{ jogador.nome }}" width="50" height="50" class="rounded-image">
+      </a><br>
+      <label>{{ jogador.nome }}</label>
+    </li>
+  </ul>
+</div>
+
+<button type="button" class="btn btn-primary" (click)="sortearTimes()">Sortear</button>
+
+<div *ngIf="times.length">
+  <h2>Times Sorteados</h2>
+  <div *ngFor="let time of times; let i = index">
+    <h3>Time {{ i + 1 }}</h3>
+    <ul>
+      <li *ngFor="let jogador of time">
+        <a href="#" (click)="toggleCheckboxByFoto(jogador.foto); $event.preventDefault()"> <!-- Adiciona o link clicável e previne o comportamento padrão -->
+          <img [src]="jogador.foto" alt="Foto do {{ jogador.nome }}" width="50" height="50" class="rounded-image">
+        </a>
+        {{ jogador.nome }}
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+/* Em seu arquivo CSS, por exemplo, sorteio.component.css */
+img {
+    border-radius: 50%; /* Torna a imagem circular */
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: 50px; /* Ajuste o tamanho conforme necessário */
+    object-fit: cover; /* Garante que a imagem se ajuste bem dentro do círculo */
+  }
+  
+
+  body{
+    background-color: #295427;
+    
+  }
+
