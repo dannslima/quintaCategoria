@@ -46,7 +46,8 @@
                   "maximumError": "4kB"
                 }
               ],
-              "outputHashing": "none"
+              "outputHashing": "none",
+              "baseHref": "/quintaCategoria/"
             },
             "development": {
               "optimization": false,

@@ -1,14 +1,78 @@
-/* Em seu arquivo CSS, por exemplo, sorteio.component.css */
 img {
-    border-radius: 50%; /* Torna a imagem circular */
-    width: 50px; /* Ajuste o tamanho conforme necessário */
-    height: 50px; /* Ajuste o tamanho conforme necessário */
-    object-fit: cover; /* Garante que a imagem se ajuste bem dentro do círculo */
-  }
-  
+  border-radius: 50%; /* Torna a imagem circular */
+  width: 50px; /* Ajuste o tamanho conforme necessário */
+  height: 50px; /* Ajuste o tamanho conforme necessário */
+  object-fit: cover; /* Garante que a imagem se ajuste bem dentro do círculo */
+  margin-right: 10px; /* Adiciona espaço entre a imagem e o checkbox */
+}
 
-  body{
-    background-color: #295427;
-    
-  }
+.fundo {
+  display: block;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZZIIPKMYkOcJbook_1hUe8hSDiTUHcdci1OKZA9EvKLFod5feFbrKi7ZfRRNJvxwf2a8&usqp=CAU');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
 
+.time {
+  background-color: aliceblue;
+  width: 30%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  text-align: center;
+  opacity: 0.9; /* Diminuir transparência */
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex; /* Flexbox para alinhar o conteúdo */
+  align-items: center; /* Alinha os itens no centro verticalmente */
+}
+
+li input[type="checkbox"] {
+  margin-right: 10px; /* Espaçamento entre o checkbox e o texto */
+}
+
+.selecionado {
+  background-color: #d1e7dd; /* Cor de fundo para a linha selecionada */
+  border-left: 5px solid #0f5132; /* Borda lateral para destaque */
+}
+
+.sorteado {
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  text-align: center;
+  opacity: 0.9; /* Diminuir transparência */
+}
+
+.amarelo {
+  background-color: yellow;
+}
+
+
+.vermelho {
+  background-color: red;
+}
+
+.time3{
+  background-color: #f0f0f0;
+}
+
+
+/* Usar media query para responsividade */
+@media (max-width: 768px) {
+  .time {
+    width: 85%;
+  }
+}
