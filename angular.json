@@ -47,7 +47,8 @@
                 }
               ],
               "outputHashing": "none",
-              "baseHref": "/quintaCategoria/"
+              "baseHref": "/quintaCategoria/",
+              "sourceMap": true
             },
             "development": {
               "optimization": false,

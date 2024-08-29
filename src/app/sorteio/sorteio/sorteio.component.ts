@@ -32,7 +32,7 @@ export class SorteioComponent implements OnInit {
     { nome: '2 Jorge', numero: 'Goleiro', foto: 'assets/jorge.png', selecionado: false },
   ]
 
-  
+  jogadorNovo = { nome: '', numero: 0, foto: 'assets/novo.png', selecionado: false };
 
   times: any[] = [];
 
@@ -66,5 +66,9 @@ export class SorteioComponent implements OnInit {
     while (jogadoresEmbaralhados.length) {
       this.times.push(jogadoresEmbaralhados.splice(0, 5));
     }
+  }
+
+  Adicionar(){
+    this.jogadores.push({ nome:this.jogadorNovo.nome, numero: 0, foto: 'assets/novo.png', selecionado: false });
   }
 }

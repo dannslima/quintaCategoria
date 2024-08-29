@@ -14,6 +14,17 @@
     </ul>
   </div>
 
+  <ng-form>
+    <div class="form-group">
+      <label for="nome">Nome</label>
+      <input type="text" class="form-control" id="nome" name="nome" [(ngModel)]="jogadorNovo.nome">
+    </div>
+  
+    <button type="submit" class="btn btn-primary" (click)="Adicionar()">Adicionar</button>
+  </ng-form>
+  <br>
+
+
   <button type="button" class="btn btn-primary" (click)="sortearTimes()">Sortear</button>
   <div *ngIf="times.length" class="sorteado">
     <h2>Times Sorteados</h2>
