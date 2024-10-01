@@ -1,13 +1,14 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { ChartComponent } from '../../charts/chart/chart.component';
 
 @Component({
   selector: 'app-sorteio',
   templateUrl: './sorteio.component.html',
   styleUrls: ['./sorteio.component.css'],
   standalone: true,
-  imports: [CommonModule,FormsModule]
+  imports: [CommonModule,FormsModule,ChartComponent]
 })
 export class SorteioComponent implements OnInit {
 
