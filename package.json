@@ -8,8 +8,11 @@
     "ghpages": "angular-cli-ghpages --dir=dist/quinta-categoria",
     "deploy": "npm run build && npm run ghpages",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "start:json-server": "json-server --watch src/app/data/db.json --port 3001",
+    "start:all": "concurrently \"npm run start:json-server\" \"npm run start\""
   },
+
   "private": true,
   "dependencies": {
     "@angular/animations": "^18.0.0",

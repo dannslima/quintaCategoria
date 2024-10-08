@@ -1,0 +1,15 @@
+
+<div class="fundo">
+  <h1>Mensalistas</h1>
+  <div class="time">
+  <div>
+    <ul>
+      <h2>Jogadores</h2>
+      <li *ngFor="let jogador of jogadores; let i = index" [ngClass]="{'selecionado': jogador.selecionado}">
+        
+          <img [src]="jogador.foto" alt="Foto do {{ jogador.nome }}" width="50" height="50" class="rounded-image">
+        
+        &nbsp;<label>{{ jogador.nome }}</label>
+      </li>
+    </ul>
+  </div>

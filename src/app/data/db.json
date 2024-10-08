@@ -1,0 +1,140 @@
+{
+    "jogadores": [
+      {
+        "id": 1,
+        "nome": "Gilson",
+        "foto": "http://localhost:4200/assets/gilson.png",
+        "ataque": 50,
+        "defesa": 60,
+        "chute": 45,
+        "toque": 70
+      },
+      {
+        "id": 2,
+        "nome": "Joao",
+        "foto": "http://localhost:4200/assets/joao.png",
+        "ataque": 55,
+        "defesa": 65,
+        "chute": 40,
+        "toque": 75
+      },
+      {
+        "id": 3,
+        "nome": "Juninho",
+        "foto": "http://localhost:4200/assets/juninho.png",
+        "ataque": 60,
+        "defesa": 70,
+        "chute": 50,
+        "toque": 80
+      },
+      {
+        "id": 4,
+        "nome": "Lucas O",
+        "foto": "http://localhost:4200/assets/lucaso.png",
+        "ataque": 65,
+        "defesa": 75,
+        "chute": 55,
+        "toque": 85
+      },
+      {
+        "id": 5,
+        "nome": "Leandro Targino",
+        "foto": "http://localhost:4200/assets/leandro.png",
+        "ataque": 70,
+        "defesa": 80,
+        "chute": 60,
+        "toque": 90
+      },
+      {
+        "id": 6,
+        "nome": "Tolao",
+        "foto": "http://localhost:4200/assets/tolao.png",
+        "ataque": 50,
+        "defesa": 65,
+        "chute": 45,
+        "toque": 75
+      },
+      {
+        "id": 7,
+        "nome": "Danilo",
+        "foto": "http://localhost:4200/assets/danilolima.png",
+        "ataque": 55,
+        "defesa": 70,
+        "chute": 50,
+        "toque": 80
+      },
+      {
+        "id": 8,
+        "nome": "Mickael",
+        "foto": "http://localhost:4200/assets/mickael.png",
+        "ataque": 60,
+        "defesa": 75,
+        "chute": 55,
+        "toque": 85
+      },
+      {
+        "id": 9,
+        "nome": "Bruno L.",
+        "foto": "http://localhost:4200/assets/brunolima.png",
+        "ataque": 65,
+        "defesa": 80,
+        "chute": 60,
+        "toque": 90
+      },
+      {
+        "id": 10,
+        "nome": "Everton",
+        "foto": "http://localhost:4200/assets/everton.png",
+        "ataque": 50,
+        "defesa": 65,
+        "chute": 45,
+        "toque": 75
+      },
+      {
+        "id": 11,
+        "nome": "Perfeito",
+        "foto": "http://localhost:4200/assets/perfeito.png",
+        "ataque": 55,
+        "defesa": 70,
+        "chute": 50,
+        "toque": 80
+      },
+      {
+        "id": 12,
+        "nome": "Thiago Kfuri",
+        "foto": "http://localhost:4200/assets/thiago_kfuri.png",
+        "ataque": 60,
+        "defesa": 75,
+        "chute": 55,
+        "toque": 85
+      },
+      {
+        "id": 13,
+        "nome": "Thiago Carvalho",
+        "foto": "http://localhost:4200/assets/thiago_carvalho.png",
+        "ataque": 65,
+        "defesa": 80,
+        "chute": 60,
+        "toque": 90
+      },
+      {
+        "id": 14,
+        "nome": "Renan (Alemão)",
+        "foto": "http://localhost:4200/assets/renan_alemao.png",
+        "ataque": 70,
+        "defesa": 85,
+        "chute": 65,
+        "toque": 95
+      },
+      {
+        "id": 15,
+        "nome": "Paulo Fillipini",
+        "foto": "http://localhost:4200/assets/paulo_fillipini.png",
+        "ataque": 75,
+        "defesa": 90,
+        "chute": 70,
+        "toque": 100
+      }
+    ]
+  }
+  
