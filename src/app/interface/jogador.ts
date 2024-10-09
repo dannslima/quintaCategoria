@@ -8,5 +8,6 @@ export interface Jogador {
     chute: number;
     toque: number;
     selecionado: boolean;
+    mensalidade: boolean;
   }
   

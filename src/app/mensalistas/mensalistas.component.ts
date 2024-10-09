@@ -38,7 +38,8 @@ export class MensalistasComponent implements OnInit {
             ataque: jogador.ataque,
             defesa: jogador.defesa,
             chute: jogador.chute,
-            toque: jogador.toque
+            toque: jogador.toque,
+            mensalidade: jogador.mensalidade
           }));
           this.ordenarJogadoresPorNome(); // Ordena por nome após carregar os dados
         } else {

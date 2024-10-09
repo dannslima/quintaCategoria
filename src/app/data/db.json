@@ -7,7 +7,8 @@
         "ataque": 50,
         "defesa": 60,
         "chute": 45,
-        "toque": 70
+        "toque": 70,
+        "mensalidade": true
       },
       {
         "id": 2,
@@ -16,7 +17,8 @@
         "ataque": 55,
         "defesa": 65,
         "chute": 40,
-        "toque": 75
+        "toque": 75,
+        "mensalidade": true
       },
       {
         "id": 3,
@@ -25,7 +27,8 @@
         "ataque": 60,
         "defesa": 70,
         "chute": 50,
-        "toque": 80
+        "toque": 80,
+        "mensalidade": true
       },
       {
         "id": 4,
@@ -34,7 +37,8 @@
         "ataque": 65,
         "defesa": 75,
         "chute": 55,
-        "toque": 85
+        "toque": 85,
+        "mensalidade": true
       },
       {
         "id": 5,
@@ -43,7 +47,8 @@
         "ataque": 70,
         "defesa": 80,
         "chute": 60,
-        "toque": 90
+        "toque": 90,
+        "mensalidade": true
       },
       {
         "id": 6,
@@ -52,7 +57,8 @@
         "ataque": 50,
         "defesa": 65,
         "chute": 45,
-        "toque": 75
+        "toque": 75,
+        "mensalidade": true
       },
       {
         "id": 7,
@@ -61,7 +67,8 @@
         "ataque": 55,
         "defesa": 70,
         "chute": 50,
-        "toque": 80
+        "toque": 80,
+        "mensalidade": true
       },
       {
         "id": 8,
@@ -70,7 +77,8 @@
         "ataque": 60,
         "defesa": 75,
         "chute": 55,
-        "toque": 85
+        "toque": 85,
+        "mensalidade": true
       },
       {
         "id": 9,
@@ -79,7 +87,8 @@
         "ataque": 65,
         "defesa": 80,
         "chute": 60,
-        "toque": 90
+        "toque": 90,
+        "mensalidade": true
       },
       {
         "id": 10,
@@ -88,7 +97,8 @@
         "ataque": 50,
         "defesa": 65,
         "chute": 45,
-        "toque": 75
+        "toque": 75,
+        "mensalidade": true
       },
       {
         "id": 11,
@@ -97,7 +107,8 @@
         "ataque": 55,
         "defesa": 70,
         "chute": 50,
-        "toque": 80
+        "toque": 80,
+        "mensalidade": true
       },
       {
         "id": 12,
@@ -106,7 +117,8 @@
         "ataque": 60,
         "defesa": 75,
         "chute": 55,
-        "toque": 85
+        "toque": 85,
+        "mensalidade": true
       },
       {
         "id": 13,
@@ -115,7 +127,8 @@
         "ataque": 65,
         "defesa": 80,
         "chute": 60,
-        "toque": 90
+        "toque": 90,
+        "mensalidade": true
       },
       {
         "id": 14,
@@ -124,7 +137,8 @@
         "ataque": 70,
         "defesa": 85,
         "chute": 65,
-        "toque": 95
+        "toque": 95,
+        "mensalidade": false
       },
       {
         "id": 15,
@@ -133,7 +147,8 @@
         "ataque": 75,
         "defesa": 90,
         "chute": 70,
-        "toque": 100
+        "toque": 100,
+        "mensalidade": true
       }
     ]
   }
