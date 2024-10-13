@@ -4,15 +4,14 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --base-href=/quinta-categoria/",
+    "build": "ng build --base-href=/quinta-categoria/",
     "ghpages": "angular-cli-ghpages --dir=dist/quinta-categoria",
     "deploy": "npm run build && npm run ghpages",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "start:json-server": "json-server --watch src/app/data/db.json --port 3001",
+    "start:json-server": "json-server --watch src/app/data/db.json --port 3000",
     "start:all": "concurrently \"npm run start:json-server\" \"npm run start\""
   },
-
   "private": true,
   "dependencies": {
     "@angular/animations": "^18.0.0",
@@ -27,6 +26,7 @@
     "boostrap": "^2.0.0",
     "bootstrap": "^5.3.3",
     "chart.js": "^4.4.4",
+    "lite-server": "^2.6.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
