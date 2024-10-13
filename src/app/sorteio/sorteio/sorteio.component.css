@@ -1,7 +1,7 @@
 img {
   border-radius: 50%; /* Torna a imagem circular */
   width: 50px; /* Ajuste o tamanho conforme necessário */
-  height: 50px%; /* Ajuste o tamanho conforme necessário */
+  height: 50px; /* Ajuste o tamanho conforme necessário */
   object-fit: cover; /* Garante que a imagem se ajuste bem dentro do círculo */
   margin-right: 10px; /* Adiciona espaço entre a imagem e o checkbox */
 }
